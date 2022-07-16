@@ -41,5 +41,4 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-intents:3.3.0'
     implementation 'androidx.test.espresso:espresso-idling-resource:3.3.0'
     androidTestImplementation 'androidx.test.espresso:espresso-idling-resource:3.3.0'
-//    implementation 'net.objecthunter:exp4j:0.4.4'
 }

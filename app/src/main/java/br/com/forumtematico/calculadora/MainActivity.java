@@ -252,6 +252,11 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
 
+            //Caso o caracter atual seja zero e o ultimo caracter for uma divisão não é adicionado nada na operação
+            if (character.equals("0") && lastCharacter.equals("/")) {
+                return;
+            }
+
             //Case o número de caracteres for igual a 1, o ultimo caracter for 0 e o caracter atual é um número ou - ele irá substituir o texto
             if (operationLength == 1 && lastCharacter.equals("0") && (characterState == IS_NUMBER || character.equals("-"))) {
                 textViewInputNumbers.setText(character);
